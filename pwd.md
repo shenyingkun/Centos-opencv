@@ -12,7 +12,7 @@
 ## 即可查看python 支持的版本
 # 三、安装成功
 ## import cv2 报错：
-    ImportError: libSM.so.6: cannot open shared object file: No such file or directory
+    ImportError: libSM.so.6: cannot open shared object file: No such file or directory  
 ## 执行yum install libSM 可以解决
 ## 验证
     >>> import cv2    
