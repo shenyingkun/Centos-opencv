@@ -8,6 +8,7 @@
     ** is not a supported wheel on this platform
 ## 进入python 编辑框
     import pip
+    
     print(pip.pep425tags.get_supported())
 ## 即可查看python 支持的版本
 # 三、安装成功
@@ -16,6 +17,8 @@
 ## 执行yum install libSM 可以解决
 ## 验证
     >>> import cv2
-    >>> cv2.__version__
-    '3.4.3'
+    
+    >>> cv2.__version__
+    
+    '3.4.3'
 ## 完成
