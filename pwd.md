@@ -1,10 +1,13 @@
 一、下载个anaconda：官网：https://www.anaconda.com/download/#linux、 
      进入该软件所在的目录
-     输入命令：sh Anaconda3-4.2.0-Linux-x86_64.sh
-     根据提示 选择下一步
+     输入命令：
+     
+     sh Anaconda3-4.2.0-Linux-x86_64.sh 
+     
           
 二、根据python版本 下载合适的opencv whl安装包，官网地址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
      使用pip命令安装pip
+     
      pip install opencv_python-3.4.3.18-cp27-cp27mu-manylinux1_x86_64.whl
 
      报错  *** is not a supported wheel on this platform
