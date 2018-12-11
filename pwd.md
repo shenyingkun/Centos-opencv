@@ -26,7 +26,7 @@
     
 ## 执行yum install libSM 可以解决
 ## 验证
-    >>> import cv2
+    >>> import cv2
     
     >>> cv2.__version__
     
