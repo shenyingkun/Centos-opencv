@@ -16,9 +16,7 @@
     ImportError: libSM.so.6: cannot open shared object file: No such file or directory
 ## 执行yum install libSM 可以解决
 ## 验证
-    >>> import cv2
-    
+    >>> import cv2    
     >>> cv2.__version__
-    
     >>> '3.4.3'   
 ## 完成
