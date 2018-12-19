@@ -1,6 +1,6 @@
 ## 1.	安装Docker(略)
-2.	下载Docker镜像
-下载镜像(以MySQL镜像为例)
+## 2.	下载Docker镜像
+# 下载镜像(以MySQL镜像为例)
 docker pull mysql
 查看镜像
 docker images
