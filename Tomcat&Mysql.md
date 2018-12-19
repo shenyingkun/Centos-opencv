@@ -79,24 +79,14 @@
          keystoreFile="/root/https.keystore" keystorePass="hnga1219@"/>
 # 8.	Http自动跳转Https
 ## 编辑conf/web.xml文件，在web.xml末尾加上如下配置：
-
     <security-constraint>
-
     <web-resource-collection >
-
               <web-resource-name >SSL</web-resource-name>
-
               <url-pattern>/*</url-pattern>
-
        </web-resource-collection>
-
        <user-data-constraint>
-
        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-
        </user-data-constraint>
-
     </security-constraint>
-
 ## 重启Tomcat服务
 
