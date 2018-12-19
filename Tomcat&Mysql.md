@@ -68,8 +68,8 @@
     CN=test1.com, OU=test1.com, O=test1.com, L=CD, ST=SC, C=CN是否正确?
     [否]:  y
     输入tomcat的密钥口令
-注意：您的名字与姓氏的填写：这里可以填写域名，要是填写域名，需要修改本机配置把域名和本机ip绑定
-<Connector port="443" protocol="org.apache.coyote.http11.Http11Protocol"
+    注意：您的名字与姓氏的填写：这里可以填写域名，要是填写域名，需要修改本机配置把域名和本机ip绑定
+    <Connector port="443" protocol="org.apache.coyote.http11.Http11Protocol"
          maxThreads="150" 
          SSLEnabled="true" 
          scheme="https" 
